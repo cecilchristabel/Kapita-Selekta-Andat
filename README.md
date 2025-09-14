@@ -8,8 +8,17 @@ Bash
 GitHub
 > klik profile picture > settings
 > SSH and GPG keys > New SSH key
-> paste semua isi file id_ed25519.pub ke bagian key > add SSH key
+> Paste semua isi file id_ed25519.pub ke bagian key > add SSH key
 
 Check di bash
 > ssh -T git@github.com
-> ketik yes
+> Ketik yes
+
+Workflow
+> Buat repository di GitHub
+> Clone reposiory : git clone git@github.com:cecilchristabel/Kapita-Selekta-Andat.git
+> Pull : git pull origin main
+> Buka folder repository di Visual Studio Code dan buat file baru
+> Menambahkan file ke staging area : git add filename atau git add
+> Commit : git commit -m  "message"
+> Push : git push origin main
